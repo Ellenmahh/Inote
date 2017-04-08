@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_editar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="inote.com.br.app.EditarActivity"
+    tools:showIn="@layout/activity_editar"
+    android:orientation="vertical">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="title:"
+        android:id="@+id/edit_title"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:hint="Digite sua anotação"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/colorAccent"
+        android:id="@+id/edit_anotacao"
+        android:gravity="left"
+        />
+
+
+</LinearLayout>
